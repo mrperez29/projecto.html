@@ -1,0 +1,67 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    }
+
+body{
+    background: linear-gradient(93deg, #000000 20.76%, #10202b 78.80%);
+}
+
+nav{
+    display: flex; /* ponerlos uno al lado del otro */
+    justify-content:space-around;/* con esto justificamos el espacio */
+    align-items: center;/* con esto alineamos el codigo */
+}
+
+nav span{
+    color: white;
+    font-weight: bold;/* bold sirve para poner en negrilla */
+    font-size: 40px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 30px;/* separar las li */
+}
+
+nav ul li a{
+    text-decoration: none; /* quita el subrayado */
+    color: white;
+    font-size: 20px; /* todo lo que sea texto lleva fond */
+}
+
+.btn{ /* con el , llamamos la clase */
+    background-color: rgba(51, 255, 228, 0.568);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#texto-principal{
+    width: 30%;
+    color: rgb(216, 250, 252);
+
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main span{
+    font-size: 40px;
+    display: block;/* block coloca un elemento debajo del otro */
+}
+
+nav span a{
+    text-decoration: none;
+    color: white;
+}
