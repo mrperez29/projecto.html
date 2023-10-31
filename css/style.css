@@ -1,10 +1,15 @@
 *{
     font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     }
 
-body{
-    background: linear-gradient(93deg, #000000 20.76%, #10202b 78.80%);
-}
+
+
+    body{
+        background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
+    }
+
+
 
 nav{
     display: flex; /* ponerlos uno al lado del otro */
@@ -15,7 +20,7 @@ nav{
 nav span{
     color: white;
     font-weight: bold;/* bold sirve para poner en negrilla */
-    font-size: 40px;
+    font-size: 20px;
 }
 
 nav ul{
@@ -30,13 +35,13 @@ nav ul li{
 nav ul li a{
     text-decoration: none; /* quita el subrayado */
     color: white;
-    font-size: 20px; /* todo lo que sea texto lleva fond */
+    font-size: 15px; /* todo lo que sea texto lleva fond */
 }
 
 .btn{ /* con el , llamamos la clase */
-    background-color: rgba(51, 255, 228, 0.568);
+    background-color: rgb(56, 0, 0);
     color: white;
-    font-size: 20px;
+    font-size : 20px;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -44,14 +49,19 @@ nav ul li a{
 
 #texto-principal{
     width: 30%;
-    color: rgb(216, 250, 252);
+    color: rgb(255, 255, 255);
 
 }
 
+nav{
+    display: flex; /* ponerlos uno al lado del otro */
+    justify-content:space-around;/* con esto justificamos el espacio */
+    align-items: center;/* con esto alineamos el codigo */
+}
 
 main{
-    display: flex;
-    justify-content: space-around;
+display: flex;
+    justify-content:space-around;
     align-items: center;
     margin-top: 30px;
 }
@@ -64,4 +74,70 @@ main span{
 nav span a{
     text-decoration: none;
     color: white;
+}
+
+details{
+    color: white;
+}
+main h1, h3{
+    color: white;
+}
+main div img{
+    width: 30%;
+}
+
+/* Estilo general de la lista de productos */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* Estilo de cada producto individual */
+li {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+/* Estilo de la imagen del producto */
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Estilo del precio */
+p {
+    font-weight: bold;
+    color: #ffffff; /* Cambia el color según tus preferencias */
+}
+
+/* Estilo del título del producto */
+h2 {
+    margin: 10px 0;
+    color: white;
+}
+
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cambia el color de fondo según tus preferencias */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+.imagen-span {
+    background-image: url('img/pexels-andre-moura-3755771.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Ajusta la posición de la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que se repita la imagen de fondo */
+    padding: 10px; /* Añade espacio alrededor del texto para mostrar la imagen de fondo */
+    color: white; /* Cambia el color del texto para que sea legible en la imagen de fondo */
 }
